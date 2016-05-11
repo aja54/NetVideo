@@ -1,4 +1,2 @@
-VideoStore   
-==========
-
-VideoStore starting refactoring example
+# NetVideo
+A place to buy and rent videos
