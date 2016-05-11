@@ -17,7 +17,7 @@ public:
     static const int CHILDRENS    = 2;
 
     // constructor
-    Video(const std::string& title, int price_code);
+    Video(const std::string& title, int category);
 
     // movie title
     const std::string& getTitle() const;
@@ -26,11 +26,11 @@ public:
     int getCode() const;
 
     // set movie price code
-    void setPriceCode(int new_price_code);
+    void setCategory(int new_category);
 
 private:
     std::string title;
-    int price_code;
+    int category;
 };
 
 #endif
