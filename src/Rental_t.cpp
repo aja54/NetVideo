@@ -9,12 +9,8 @@
 #include "Rental.hpp"
 
 int main() {
-	Video movie("A", Video::REGULAR);
-	
-	//rented 0 days
-	{
-		Rental rental(movie, 0);
-		assert(rental.getDaysRented() == 0 );
-	}
+
+    // TODO:  Add test cases
+
     return 0;
 }
